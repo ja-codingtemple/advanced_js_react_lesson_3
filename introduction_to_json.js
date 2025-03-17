@@ -37,9 +37,9 @@ const dog = {
 };
 
 // Print out some of the object properties.
-console.log("DISPLAYING PROPERTIES FROM A JAVASCRIPT OJBECT:")
-console.log(dog.name)
-console.log(dog.favorite_activities)
+console.log("DISPLAYING PROPERTIES FROM A JAVASCRIPT OJBECT:");
+console.log(dog.name);
+console.log(dog.favorite_activities);
 
 // Convert the object into a JSON string with stringify()
 const json = JSON.stringify(dog);
@@ -51,6 +51,6 @@ console.log(json);
 const dogFromJSON = JSON.parse(json);
 
 // Print out the object properties again.
-console.log("\nDISPLAYING PROPERTIES FROM A JAVASCRIPT OBJECT CREATED FROM A JSON STRING:")
-console.log(dogFromJSON.name)
-console.log(dogFromJSON.favorite_activities)
+console.log("\nDISPLAYING PROPERTIES FROM A JAVASCRIPT OBJECT CREATED FROM A JSON STRING:");
+console.log(dogFromJSON.name);
+console.log(dogFromJSON.favorite_activities);

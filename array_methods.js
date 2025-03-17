@@ -8,6 +8,10 @@ There are many built-in methods for arrays, however, these are a few that you sh
 - filter()
 - find()
 - includes()
+
+Other array methods: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+https://www.w3schools.com/jsref/jsref_obj_array.asp
 */
 
 // Define the array.
@@ -65,5 +69,5 @@ METHOD: includes()
 This method attempts to detect whether an array includes a particular value. If it does, it returns True. If not, it returns False.
 */
 console.log("\nEXAMPLE: includes()")
-const hasLuna = names.includes("Luna");
+const hasLuna = names.includes("LUNA");
 console.log(hasLuna);
